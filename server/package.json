@@ -1,0 +1,18 @@
+{
+  "name": "raj-portfolio-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express + MongoDB API for Raj Kumar's portfolio (contact form, future dynamic project data).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  }
+}

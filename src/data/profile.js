@@ -1,0 +1,25 @@
+export const profile = {
+  name: 'RajKumar P',
+  firstName: 'Raj',
+  role: 'Full Stack Web Developer',
+  badge: 'MERN Stack',
+  location: 'Salem, Tamil Nadu, India',
+  experience: '10 Months internship Experience',
+  availability: 'Available for Work',
+  tagline: 'Building scalable, high-performance web applications with modern technologies.',
+  longIntro:
+    "I'm a Full Stack Web Developer specializing in the MERN stack, based in Salem, Tamil Nadu. I build fast, reliable, end-to-end web products — from pixel-perfect React interfaces to secure Node.js APIs backed by MongoDB.",
+  email: 'rajkumar.webdev0@gmail.com',
+  phone: '+91  xxxxxxx133',
+  github: 'https://github.com/Rajkumar-75',
+  linkedin: 'https://www.linkedin.com/in/rajkumar75',
+  leetcode: 'https://leetcode.com/u/Rajkumar_dev0/',
+  resumeUrl: '/resume/Raj-Kumar-Resume.pdf',
+  avatar: '/avatar.png',
+  stats: [
+    { value: 15, label: 'Projects', suffix: '+' },
+    { value: 1, label: 'Years Experience', suffix: '+' },
+    { value: 10, label: 'Technologies', suffix: '+' },
+    { value: 1000, label: 'Coding Hours', suffix: '+' },
+  ],
+};

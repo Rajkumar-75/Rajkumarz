@@ -1,0 +1,47 @@
+export const projects = [
+  {
+    id: 'proj-1',
+    title: 'Study Planner AI',
+    tagline: 'PDF-aware AI learning platform',
+    category: 'AI / Full Stack',
+    image: '/projects/learning-ai.png',
+    color: '#2563eb',
+    summary: 'PDF-aware study planner that extracts topics using NLP and generates a personalized study schedule.',
+    description:
+      'A learning recommendation system that parses uploaded PDFs, extracts topics with NLP, and generates a personalized study schedule with progress tracking. Includes an analytics dashboard for weak-topic detection and a chat-based AI tutor integration.',
+    stack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Python'],
+    github: 'https://github.com/Rajkumar-75/ai-Personalized_Learning_Schedule_webapplication',
+    demo: '',
+    featured: true,
+  },
+  {
+    id: 'proj-2',
+    title: 'Training Institute Management System',
+    tagline: 'Full-featured institutional portal',
+    category: 'Full Stack',
+    image: '/projects/shopswift.png',
+    color: '#1d4ed8',
+    summary: 'Comprehensive student management platform with attendance tracking, grades, and admin portal.',
+    description:
+      'A full-stack student management system with role-based access for students, faculty, and administrators. Features real-time attendance tracking, grade management, and a report generation system with PDF exports.',
+    stack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Bootstrap CSS'],
+    github: 'https://github.com/Rajkumar-75/Training-institute-webapplication',
+    demo: '',
+    featured: true,
+  },
+  {
+    id: 'proj-3',
+    title: 'IoT Smart Bicycle',
+    tagline: 'Embedded IoT system with web dashboard',
+    category: 'IoT / Full Stack',
+    image: '/projects/orbis.jpg',
+    color: '#1e40af',
+    summary: 'IoT-powered smart bicycle system with GPS tracking, speed monitoring, and real-time web dashboard.',
+    description:
+      'An IoT project integrating sensors on a bicycle to monitor speed, GPS location, and safety metrics. Data is transmitted via MQTT to a Node.js backend and visualized on a real-time React dashboard with historical analytics.',
+    stack: ['React', 'Node.js', 'MQTT', 'MongoDB', 'Arduino', 'GPS Module'],
+    github: 'https://github.com/rajkumar-dev/iot-bicycle',
+    demo: '',
+    featured: true,
+  },
+];
